@@ -4,7 +4,7 @@
  * Module arguments: MONTHLY_GB (monthly traffic limit in GB), RESET_DAY (day of month when traffic resets)
  */
 
-const API_ENDPOINT = "http://traffic.local:19090/stats";
+const API_ENDPOINT = "http://127.0.0.1:19090/stats";
 
 function parseArguments(raw) {
   const result = {};
