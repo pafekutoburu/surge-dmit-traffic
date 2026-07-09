@@ -1,7 +1,8 @@
-#!name=DMIT VPS 流量
+#!name=🟦 DMIT VPS流量 ⏳
 #!desc=v1.0 通过 VPS 本地 vnstat 服务显示月度流量使用情况。需先在 VPS 上部署 dmit-traffic-server。
 #!arguments=MONTHLY_GB:月流量上限(GB),RESET_DAY:重置日(1-31)
 #!requirement=CORE_VERSION>=20
+#!category=🟦 PafekutoBuru
 
 [Panel]
 DMIT Traffic = title="DMIT VPS",content="点击刷新以查询流量",style=info,script-name=dmit-traffic,update-interval=600
